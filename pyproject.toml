@@ -34,7 +34,7 @@ moviepy = "^1.0.3"
 [tool.poetry.dev-dependencies]
 
 [tool.poetry.group.dev.dependencies]
-ipykernel = "^6.27.0"
+ipykernel = "^6.29.5"
 
 [tool.isort]
 profile = "black"
