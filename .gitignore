@@ -19,7 +19,8 @@
 /poetry.toml
 
 # Output of the algorithm 
+**/.cache/*
 # screenshot
-imgs/*
+**/imgs/*
 # rendered final video
-out/*
+**/out/*

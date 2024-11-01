@@ -2,13 +2,14 @@
 
 In this repository I propose a TSP solution using Evolutionary Algorithm
 
-| Nation  | #Generation | Final Cost |
-| ------- | ----------- | ---------- |
-| China   | 500         |            |
-| Italy   | 500         | 6736.80km  |
-| Russia  | 500         |            |
-| US      | 500         |            |
-| Vanuatu | 500         |            |
+| Country | Population Size | Mutation Rate | Num Elites | Num Generations | Final Cost  | Known Solution |
+| ------- | --------------- | ------------- | ---------- | --------------- | ----------- | -------------- |
+| china   | 20              | 0.5           | 2          | 50              | 877373.82km | inf            |
+| italy   | 50              | 0.4           | 3          | 200             | 6473.74km   | 4172.76        |
+| russia  | 50              | 0.4           | 3          | 200             | 131595.99km | 32722.5        |
+| us      | 50              | 0.4           | 3          | 200             | 326431.43km | 39016.59       |
+| vanuatu | 50              | 0.4           | 3          | 7               | 1345.54km   | 1345.54        |
+
 
 ## Visualizing the Algorithm
 While running the code produce snapshot of each generation and finally produce a video out of those snapshot in 30fps (30 generation per second)
